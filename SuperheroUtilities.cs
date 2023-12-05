@@ -50,4 +50,17 @@ public static class SuperheroUtilities
             .ToList();
     }
 
+    public static readonly string[] secondaryWeaponsList = new string[]{
+        "weapon_glock",
+        "weapon_elite",
+        "weapon_p250",
+        "weapon_tec9",
+        "weapon_cz75a",
+        "weapon_deagle",
+        "weapon_revolver",
+        "weapon_usp_silencer",
+        "weapon_hkp2000",
+        "weapon_fiveseven"
+    };
+
 }

@@ -1,6 +1,3 @@
-using CounterStrikeSharp.API;
-using CounterStrikeSharp.API.Core;
-using SuperheroPlugin;
 
 namespace SuperheroPlugin.Abilities;
 

@@ -1,5 +1,7 @@
-## Superhero Plugin (wip obviously)
+## Superhero plugin WIP
 
-Still a work in progress plugin with a lot to do still.
-Further information later.
+### Ability creation
 
+If you want to add your own abilities. Create a .cs file inside /Abilities folder.
+Add namespace `namespace SuperheroPlugin.Abilities;` and extend the `SuperheroAbility` class.
+Now you are done. 
