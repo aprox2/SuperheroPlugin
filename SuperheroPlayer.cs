@@ -77,7 +77,6 @@ public class SuperheroPlayer
     {
         foreach (SuperheroAbility ability in this.playerAbilities)
         {
-            Console.WriteLine($"Activating {ability.abilityName}");
             if (ability.onRoundStartActivate) { ability.activate(this); }
         }
     }
